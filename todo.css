@@ -1,0 +1,115 @@
+.top {
+    padding: 2px;
+    background-color: rgba(163, 163, 95, 0.539);
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik Doodle Triangles";
+    font-size: large;
+    border-radius: 5px;
+}
+
+.top h1 {
+    cursor: pointer;
+}
+
+.add-box {
+    display: flex;
+    justify-content: center;
+}
+
+.add-box input {
+    padding: 5px;
+    margin-top: 20px;
+    width: 30rem;
+    max-width: 20rem;
+    font-family: Teko;
+    color: rgb(89, 68, 68);
+    font-size: larger;
+    border-radius: 5px;
+    border: 3px #000;
+    box-shadow: 3px 3px 3px 3px #504d4d;
+    background-color: #d6e10763;
+}
+
+.add-btn {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgba(97, 114, 23, 0.45);
+    color: green;
+    font-family: teko;
+    font-size: x-large;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #504d4d;
+    border-color: green;
+    border: 3px;
+    transition: background-color 0.5s;
+}
+
+.add-btn:hover {
+    background-color: green;
+    color: rgba(0, 0, 0, 0.45);
+    border-color: rgba(248, 248, 248, 0.45);
+}
+
+.content {
+    height: auto;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    background-color: rgb(90, 148, 59);
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.content h2 {
+    font-family: "Rubik Scribble";
+    color: white;
+    font-size: 40px;
+}
+
+.list {
+    width: 100%;
+    font-family: tektur;
+    display: grid;
+grid-template-columns: auto;
+
+}
+
+.tasks {
+    margin-bottom: 10px; 
+}
+
+
+.todo,
+.done {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #ff000063;
+}
+
+i {
+    cursor: pointer;
+    margin-left: 25px;
+}
